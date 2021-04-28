@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script> 
+    </head>
+    <body>
+    <style>
+        body {
+    background-image:url("https://i.pinimg.com/originals/01/85/b8/0185b85c55c7ba1dbc3b90d70826bcb9.gif");
+    /*background-repeat:no-repeat;*/
+    background-attachment:fixed;
+    height:100vh;
+    color:#fff;
+    text-align:center ;
+}
+.plate{
+    height:10vh;
+    width:80vw;
+    background:#D3D3D3;
+    border-radius:50%;
+    position:absolute;
+    top:70%;
+    left:10%;
+    box-shadow:inset -2px -3px grey;
+}
+.base{
+    height:7vh;
+    width:65vw;
+    background:brown;
+    border-radius:30%;
+    position:absolute;
+}
+.b1{
+    top:70%;
+    left:18%;
+}
+.b2{
+    top:65%;
+    left:18%;
+}
+.b3{
+    top:60%;
+    left:18%;
+}
+.b4{
+    top:55%;
+    left:18%;
+}
+.b5{
+    top:50%;
+    left:18%;
+}
+.line{
+    height:5vh;
+    width:61vw;
+    border-radius:30%;
+    box-shadow:0 3px #f8b120;
+    padding-top:0.5%;
+}
+.lines{
+    position:absolute;
+    top:51.5%;
+    left:20%;
+    z-index:80;
+}
+.top{
+    height:2vh;
+    width:65vw;
+    background:chocolate;
+    border-radius:30%;
+    position:absolute;
+    top:50%;
+    left:17.8%;
+    z-index:50;
+}
+.cndl{
+    height:10vh;
+    width:3vw;
+    background:linear-gradient(60deg, pink, yellow, orange);
+    position:absolute;
+    top:41%;
+    left:48%;
+    z-index:90;
+}
+.flame{
+    height:5vh;
+    width:2vw;
+    background:radial-gradient(yellow, orange, red);
+    border-radius:50%;
+    position:absolute;
+    top:36%;
+    left:48.5%;
+    transform-origin:50% 90%;
+    transform:rotate(-10deg);
+    animation:move 3s ease infinite;
+}
+
+@keyframes move{
+  0%{ transform: rotate(5deg)}
+  50%{ transform: rotate(-5deg)}
+  100%{ transform: rotate(5deg)}
+}
+ 
+#bday {
+    animation:fade 2s ease infinite;
+}
+
+
+@keyframes fade {
+    
+    0%,100%{
+        opacity:1;
+    }
+    50% {
+        
+        opacity:0;
+    }
+}
+
+
+
+.drp{
+    background:chocolate;
+    position:absolute;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    z-index:100;
+}
+.d1{
+    top:51.9%;
+    left:25%;
+    height:4vh;
+    width:7vw;
+}
+.d2{
+    top:51.9%;
+    left:35%;
+    height:7vh;
+    width:9vw;
+}
+
+.bday{
+    color:#81e8fb;
+    font-size:8vh;
+    text-shadow:1px -1px pink, 2px -2px orange;
+    transform:skewX(30deg);
+    transform:skewY(-5deg);
+    animation:ops 2s ease infinite ;
+    top:-30px;
+    
+}
+.text{
+    position:absolute;
+    top:90%;
+    border-radius:50% 50% 49% 51% / 66% 66% 60% 60% ;
+    text-align:center ;
+    font-size:1rem;
+    font-weight:5000;
+    transform:rotate(0deg);
+padding:10px;
+  height:max-content;
+  width:max-content;
+  position:relative ;
+  border-radius:10px;
+  margin:10px;
+  border: 5px solid #EFFDFB;
+border-radius: 34px;
+top:250px;
+  left:0px;
+font-family: 'Yatra One', cursive, bolder;
+ box-shadow: inset 0 0 0 200px rgba(255,255,255,0.3), 5px 5px 10px #bebebe, 5px 5px 10px #000;
+ opacity:0.9;
+ background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSrxdwKryWec1EWmEbOanx9CE635-fIx9TfcA&usqp=CAU");
+ color:black;
+}
+
+.text h2{
+   color:blue;
+   
+   
+   
+}
+p
+    color:#f940f7;
+}
+
+    </style>
+        <audio controls style=" display:none;" loop   id="a"  >
+    <source  src=" https://mobcup.net/d/s9dv0q2k/mp3"> 
+   <script>
+     Swal.fire('Happy birthday F3TCHER SIR 🎊\n A small try🧗‍♀️ to express my gratitude🤗 \n It is quite simple😕 and maybe boring😥 as I am a beginner😔 ')
+        </script>  
+        
+      </audio>
+        
+  <div id="bday">
+    <h1 align="center" class="bday">HAPPY BIRTHDAY</h1>
+    <h1 align="center" class="bday">F3TCHER SIR</h1>
+</div>
+      <div class="plate"></div>
+      
+  <div class="lines">
+      <div class="line l1"></div>
+      <div class="line l2"></div>
+      <div class="line l3"></div>
+      <div class="line l4"></div>
+  </div>
+  
+      <div class="top"></div>
+      <div class="base b1"></div>
+      <div class="base b2"></div>
+      <div class="base b3"></div>
+      <div class="base b4"></div>
+      <div class="base b5"></div>
+      <div class="crm"></div>
+      <div class="drp d1"></div>
+      <div class="drp d2"></div>
+      <div class="cndl"></div>
+      <div class="flame"></div>
+<div class="text"><b>
+    <h2>Happy Birthday🎊</h2>
+    <p>Never Knew🚫 My Break From <br>Sololearn Would Be So Fruitful🤩 And<br> I Would Get The Opportunity😇 To<br> Meet🤝 Such A Wonderful Soul😇<br> With A Great Heart💝 Of Gold.💫<br><br>
+     H - is for the Happiest🤠 of all days<br>
+A - is for All the wishes and praise🥳<br>
+P - is for the Presents🎁 you'll open with delight<br>
+P - is for the Party that will last into the night<br>
+Y - is for the Year📅 leading up to your day<br>
+
+B - is for the Balloons🎈 a celebration they'll say<br>
+I - is for the Ice cream🍧 to have with your cake🍰<br>
+R - is for the Ribbons🎀 and decorations you'll make<br>
+T - is for the Theme 🎥you'll decided to throw<br>
+H - is for the Hats🎩 made with confetti and a bow<br>
+D - is for the Day you know will be fun🥳<br>
+A - is for Another great year📅 that is done<br>
+Y - is for Your special🎊 day.<br><br>
+
+Happy Birthday🎊!<br> Happy Birthday🎉!<br> Hip-hip hooray💃!<br>
+</b>
+</p>
+</div>
+<script>
+    window.addEventListener("mouseover",play);
+window.addEventListener("click",play);
+function play() { document.getElementById("a").play();
+}
+
+</script>
+    </body>
+</html>
